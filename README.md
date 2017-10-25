@@ -14,10 +14,14 @@ The service is built against Travis using a multistage Dockerfile:
 
 1. Build the image
 
+    ```
     docker build -t welcome_squarescale .
+    ```
 
 2. Run it
 
+    ```
     docker run --rm -it -p 8080:80 welcome_squarescale
+    ```
 
-3. Browse http://localhost:8080
+3. Browse [localhost:8080](http://localhost:8080)
